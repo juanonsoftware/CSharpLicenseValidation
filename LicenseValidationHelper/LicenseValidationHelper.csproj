@@ -2,6 +2,12 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Title>License key validation helper API for .NET</Title>
+    <Description>This package contains functions to validate an encrypted license key file</Description>
+    <PackageProjectUrl>https://github.com/juanonsoftware/CSharpLicenseValidation</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/juanonsoftware/CSharpLicenseValidation</RepositoryUrl>
+    <PackageTags>encrypt;decrypt;license key;disk information</PackageTags>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <ItemGroup>
