@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DiskInformation", "DiskInformation\DiskInformation.csproj", "{70050233-6150-40FA-8923-D1AFAEA26551}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleAppTester", "ConsoleAppTester\ConsoleAppTester.csproj", "{64D12E98-8288-4271-8606-D1773A342E09}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LicenseTestingApp", "LicenseTestingApp\LicenseTestingApp.csproj", "{D7D4C58E-7F2A-4F74-80AB-196F8CEA1846}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LicenseValidationHelper", "LicenseValidationHelper\LicenseValidationHelper.csproj", "{595ABA1B-CD67-4A40-A79E-9844ECF4C43C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TestDiskInformtionApps", "TestDiskInformtionApps", "{F982A9D0-830E-4128-AB4C-84654DC3EC32}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TestLicenseValidationApps", "TestLicenseValidationApps", "{21ACA838-8D48-4649-B406-08FF1B1DE1CB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{70050233-6150-40FA-8923-D1AFAEA26551}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70050233-6150-40FA-8923-D1AFAEA26551}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70050233-6150-40FA-8923-D1AFAEA26551}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70050233-6150-40FA-8923-D1AFAEA26551}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64D12E98-8288-4271-8606-D1773A342E09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64D12E98-8288-4271-8606-D1773A342E09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64D12E98-8288-4271-8606-D1773A342E09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64D12E98-8288-4271-8606-D1773A342E09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7D4C58E-7F2A-4F74-80AB-196F8CEA1846}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7D4C58E-7F2A-4F74-80AB-196F8CEA1846}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7D4C58E-7F2A-4F74-80AB-196F8CEA1846}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7D4C58E-7F2A-4F74-80AB-196F8CEA1846}.Release|Any CPU.Build.0 = Release|Any CPU
+		{595ABA1B-CD67-4A40-A79E-9844ECF4C43C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{595ABA1B-CD67-4A40-A79E-9844ECF4C43C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{595ABA1B-CD67-4A40-A79E-9844ECF4C43C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{595ABA1B-CD67-4A40-A79E-9844ECF4C43C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{64D12E98-8288-4271-8606-D1773A342E09} = {F982A9D0-830E-4128-AB4C-84654DC3EC32}
+		{D7D4C58E-7F2A-4F74-80AB-196F8CEA1846} = {21ACA838-8D48-4649-B406-08FF1B1DE1CB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8DA2A752-6372-43DC-8A60-3DD7CDB27792}
+	EndGlobalSection
+EndGlobal

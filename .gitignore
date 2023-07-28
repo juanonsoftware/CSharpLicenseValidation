@@ -1,0 +1,13 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/ConsoleAppTester/bin
+/.vs/CsharpLicenseValidating/FileContentIndex
+/ConsoleAppTester/obj
+/DiskInformation/bin
+/DiskInformation/obj
+/LicenseTestingApp/obj
+/LicenseValidationHelper/obj
+/LicenseTestingApp/bin/Debug/net6.0
+/LicenseValidationHelper/bin/Debug/netstandard2.0
