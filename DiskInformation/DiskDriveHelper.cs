@@ -22,12 +22,12 @@ namespace DiskInformation
         {
             return new DiskDrive()
             {
-                Model = mo.GetPropertyValue("Model").ToString(),
-                InterfaceType = mo.GetPropertyValue("InterfaceType").ToString(),
-                Description = mo.GetPropertyValue("Description").ToString(),
-                SerialNumber = mo.GetPropertyValue("SerialNumber").ToString(),
-                PNPDeviceID = mo.GetPropertyValue("PNPDeviceID").ToString(),
-                Size = long.Parse(mo.GetPropertyValue("Size").ToString()),
+                Model = $"{mo.GetPropertyValue("Model")}",
+                InterfaceType = $"{mo.GetPropertyValue("InterfaceType")}",
+                Description = $"{mo.GetPropertyValue("Description")}",
+                SerialNumber = $"{mo.GetPropertyValue("SerialNumber")}",
+                PNPDeviceID = $"{mo.GetPropertyValue("PNPDeviceID")}",
+                Size = long.Parse((mo.GetPropertyValue("Size") == null) ? "0" : mo.GetPropertyValue("Size").ToString()),
             };
         }
 

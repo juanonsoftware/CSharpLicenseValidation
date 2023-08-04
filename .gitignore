@@ -12,3 +12,7 @@
 /LicenseTestingApp/bin/Debug/net6.0
 /LicenseValidationHelper/bin/Debug/netstandard2.0
 /LicenseValidationHelper/bin/Release
+/.vs/CsharpLicenseValidating/v17
+/.vs/CsharpLicenseValidating/DesignTimeBuild
+/.vs/ProjectEvaluation
+/LicenseTestingApp/bin/Release/net6.0

@@ -22,9 +22,9 @@ namespace DiskInformation
         {
             return new LogicalDisk()
             {
-                Name = mo.GetPropertyValue("Name").ToString(),
-                FileSystem = mo.GetPropertyValue("FileSystem").ToString(),
-                VolumeSerialNumber = mo.GetPropertyValue("VolumeSerialNumber").ToString(),
+                Name = $"{mo.GetPropertyValue("Name")}",
+                FileSystem = $"{mo.GetPropertyValue("FileSystem")}",
+                VolumeSerialNumber = $"{mo.GetPropertyValue("VolumeSerialNumber")}",
             };
         }
     }
